@@ -155,3 +155,9 @@ section {
   right: 0;
   height: 110%;
 }
+
+@media (max-width: 1068px) {
+  .home-img {
+    display: none;
+  }
+}
