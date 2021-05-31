@@ -29,9 +29,16 @@ p {
 
 section {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   align-items: center;
   padding: 100px;
+  margin-top: 60px;
+}
+
+section.home {
+  flex-direction: row;
+  margin-top: 0;
 }
 
 /* BUTTON */
@@ -154,6 +161,12 @@ section {
   bottom: 0;
   right: 0;
   height: 110%;
+}
+
+/* SERVICES PAGE */
+.services {
+  margin-top: 40px;
+  display: grid;
 }
 
 @media (max-width: 1068px) {
