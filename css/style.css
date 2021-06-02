@@ -191,6 +191,8 @@ section.home {
   max-width: 100px;
 }
 
+/* WORK PAGE */
+
 @media (max-width: 1068px) {
   .home-img {
     display: none;
